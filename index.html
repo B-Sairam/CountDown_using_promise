@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>countdown</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-   <center>
+ 
+<div class="container">
+  <div class="box">
     <h1>CountDown For Independence Day</h1>
-    <h2></h2>
-   </center>
-    <script src="script.js"></script>
+    <span class="time"></span>
+  </div>
+  <div class="pop">
+    <p>Happy 75th Independence Day</p>
+    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202008/74_Independence_Day_2020.jpeg?tmSWQg0kQS5FBRn_aCPyPivgkYTkxZw1&size=770:433" alt="flage">
+  </div>
+</div>
+<canvas id="my-canvas"></canvas>
+  <script src="script.js"></script>
+  <script src="index.min.js"></script>
+  <script>var confettiSettings = { target: 'my-canvas' };
+    var confetti = new ConfettiGenerator(confettiSettings);
+    confetti.render();</script>
 </body>
 </html>
