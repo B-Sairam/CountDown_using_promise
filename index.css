@@ -49,6 +49,9 @@
     font-weight: 600;
     top: 30px;
 }
+.pop img{
+    boder-radius:20px;
+}
 .pop.active{
     visibility: visible;
 }
